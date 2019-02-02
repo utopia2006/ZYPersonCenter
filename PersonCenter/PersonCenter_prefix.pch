@@ -1,0 +1,71 @@
+//
+//  photo_prefix.pch
+//  photo
+//
+//  Created by admin on 14-10-30.
+//  Copyright (c) 2014年 poco. All rights reserved.
+//
+
+#ifndef photo_photo_prefix_pch
+#define photo_photo_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "UIConfig.h"
+#endif
+
+#define IOSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#define BUNDLE_NAME @"Resource"
+#define isRetina [[UIScreen mainScreen] scale]>1.99
+
+//以iphone6位基准的比例
+#define KiPhone6Radio [UIScreen mainScreen].bounds.size.width/375.0
+#define ZYfloat(a) a*KiPhone6Radio
+
+//判断设备是否IPHONE5
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1080, 1920), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isIphoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isIpad ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+#define isIpadDevice ([[[[UIDevice currentDevice] model] lowercaseString] rangeOfString:@"ipad"].length>0)
+
+#define RGBCOLOR(r,g,b)    [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.0]
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define HexRGBAlpha(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#define SAFE_RELEASE(obj) if(obj){[obj release];obj=nil;}
+
+#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+#define NSLog(...) printf("%f %s\n",[[NSDate date]timeIntervalSince1970],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+//导航栏高度
+#define NavHeight (isIphoneX?88.0:64.0)
+//tabbar高度
+#define TabbarHeight (isIphoneX?83.0:49.0)
+
+#define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
+#define kScreenWidth    ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight   ([UIScreen mainScreen].bounds.size.height)
+
+#define uWeakSelf typeof(self) __weak weakSelf = self;
+#define uStrongSelf typeof(weakSelf) __strong strongSelf = weakSelf;
+
+#endif

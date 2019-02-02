@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADB69F4B9D30678D87CC8AE /* libPods-PersonCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C937E167FE0BABF0E3D0906 /* libPods-PersonCenter.a */; };
+		84499F1422052F4400F94290 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84499F1022052F4400F94290 /* refresh@2x.png */; };
+		84499F1522052F4400F94290 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84499F1122052F4400F94290 /* refresh@3x.png */; };
+		84499F1622052F4400F94290 /* user_cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84499F1222052F4400F94290 /* user_cover.jpg */; };
+		84499F1722052F4400F94290 /* user_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84499F1322052F4400F94290 /* user_default.png */; };
+		84577AF72204329A00FE416F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577AF62204329A00FE416F /* AppDelegate.m */; };
+		84577AFA2204329A00FE416F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577AF92204329A00FE416F /* FirstViewController.m */; };
+		84577AFD2204329A00FE416F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577AFC2204329A00FE416F /* SecondViewController.m */; };
+		84577B002204329A00FE416F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84577AFE2204329A00FE416F /* Main.storyboard */; };
+		84577B022204329A00FE416F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84577B012204329A00FE416F /* Assets.xcassets */; };
+		84577B052204329A00FE416F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84577B032204329A00FE416F /* LaunchScreen.storyboard */; };
+		84577B082204329A00FE416F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B072204329A00FE416F /* main.m */; };
+		84577B122204329B00FE416F /* PersonCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B112204329B00FE416F /* PersonCenterTests.m */; };
+		84577B1D2204329B00FE416F /* PersonCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B1C2204329B00FE416F /* PersonCenterUITests.m */; };
+		84577B752204368D00FE416F /* PersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B662204368D00FE416F /* PersonCenterController.m */; };
+		84577B762204368D00FE416F /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B692204368D00FE416F /* UIImage+ImageWithColor.m */; };
+		84577B772204368D00FE416F /* UIView+XDWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */; };
+		84577B782204368D00FE416F /* ContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B6E2204368D00FE416F /* ContentViewCell.m */; };
+		84577B792204368D00FE416F /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B702204368D00FE416F /* MenuView.m */; };
+		84577B7A2204368D00FE416F /* PublicHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B722204368D00FE416F /* PublicHeaderView.m */; };
+		84577B802204369D00FE416F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B7F2204369D00FE416F /* UINavigationBar+Awesome.m */; };
+		84577B84220436FF00FE416F /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B83220436FF00FE416F /* HMSegmentedControl.m */; };
+		84577B872204376700FE416F /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B852204376600FE416F /* QCSlideSwitchView.m */; };
+		84577B8D22043CA800FE416F /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B8C22043CA800FE416F /* UIImageHelper.m */; };
+		84577B9022043D8700FE416F /* ProfileButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B8E22043D8600FE416F /* ProfileButton.m */; };
+		84577B942204402500FE416F /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B932204402500FE416F /* UserModel.m */; };
+		84577B982204456400FE416F /* MyBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B972204456400FE416F /* MyBarButtonItem.m */; };
+		84577B9B22044B3C00FE416F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B9A22044B3C00FE416F /* TestTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84577B0E2204329B00FE416F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84577AEA2204329A00FE416F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84577AF12204329A00FE416F;
+			remoteInfo = PersonCenter;
+		};
+		84577B192204329B00FE416F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84577AEA2204329A00FE416F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84577AF12204329A00FE416F;
+			remoteInfo = PersonCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15738F2AC1BAF624B6513705 /* Pods-PersonCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonCenter/Pods-PersonCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC06994C0491C22ADED751E /* Pods-PersonCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonCenter/Pods-PersonCenter.release.xcconfig"; sourceTree = "<group>"; };
+		5C937E167FE0BABF0E3D0906 /* libPods-PersonCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84499F1022052F4400F94290 /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
+		84499F1122052F4400F94290 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
+		84499F1222052F4400F94290 /* user_cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_cover.jpg; sourceTree = "<group>"; };
+		84499F1322052F4400F94290 /* user_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_default.png; sourceTree = "<group>"; };
+		84577AF22204329A00FE416F /* PersonCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84577AF52204329A00FE416F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84577AF62204329A00FE416F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84577AF82204329A00FE416F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84577AF92204329A00FE416F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84577AFB2204329A00FE416F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84577AFC2204329A00FE416F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84577AFF2204329A00FE416F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84577B012204329A00FE416F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84577B042204329A00FE416F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84577B062204329A00FE416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84577B072204329A00FE416F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84577B0D2204329B00FE416F /* PersonCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84577B112204329B00FE416F /* PersonCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterTests.m; sourceTree = "<group>"; };
+		84577B132204329B00FE416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84577B182204329B00FE416F /* PersonCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84577B1C2204329B00FE416F /* PersonCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterUITests.m; sourceTree = "<group>"; };
+		84577B1E2204329B00FE416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84577B642204368D00FE416F /* EmbedScrollViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedScrollViewControllerProtocol.h; sourceTree = "<group>"; };
+		84577B652204368D00FE416F /* PersonCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCenterController.h; sourceTree = "<group>"; };
+		84577B662204368D00FE416F /* PersonCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCenterController.m; sourceTree = "<group>"; };
+		84577B682204368D00FE416F /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		84577B692204368D00FE416F /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		84577B6A2204368D00FE416F /* UIView+XDWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDWRefresh.h"; sourceTree = "<group>"; };
+		84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDWRefresh.m"; sourceTree = "<group>"; };
+		84577B6D2204368D00FE416F /* ContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCell.h; sourceTree = "<group>"; };
+		84577B6E2204368D00FE416F /* ContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCell.m; sourceTree = "<group>"; };
+		84577B6F2204368D00FE416F /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		84577B702204368D00FE416F /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		84577B712204368D00FE416F /* PublicHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicHeaderView.h; sourceTree = "<group>"; };
+		84577B722204368D00FE416F /* PublicHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicHeaderView.m; sourceTree = "<group>"; };
+		84577B7E2204369D00FE416F /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		84577B7F2204369D00FE416F /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		84577B82220436FF00FE416F /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		84577B83220436FF00FE416F /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		84577B852204376600FE416F /* QCSlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCSlideSwitchView.m; sourceTree = "<group>"; };
+		84577B862204376700FE416F /* QCSlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCSlideSwitchView.h; sourceTree = "<group>"; };
+		84577B892204390700FE416F /* PersonCenter_prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCenter_prefix.pch; sourceTree = "<group>"; };
+		84577B8A22043B3900FE416F /* UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConfig.h; sourceTree = "<group>"; };
+		84577B8B22043CA700FE416F /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageHelper.h; sourceTree = "<group>"; };
+		84577B8C22043CA800FE416F /* UIImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageHelper.m; sourceTree = "<group>"; };
+		84577B8E22043D8600FE416F /* ProfileButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileButton.m; sourceTree = "<group>"; };
+		84577B8F22043D8700FE416F /* ProfileButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileButton.h; sourceTree = "<group>"; };
+		84577B922204402500FE416F /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		84577B932204402500FE416F /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		84577B962204456400FE416F /* MyBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBarButtonItem.h; sourceTree = "<group>"; };
+		84577B972204456400FE416F /* MyBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBarButtonItem.m; sourceTree = "<group>"; };
+		84577B9922044B3C00FE416F /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		84577B9A22044B3C00FE416F /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84577AEF2204329A00FE416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADB69F4B9D30678D87CC8AE /* libPods-PersonCenter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B0A2204329B00FE416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B152204329B00FE416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D374FD7EADD3D0789AB73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15738F2AC1BAF624B6513705 /* Pods-PersonCenter.debug.xcconfig */,
+				3CC06994C0491C22ADED751E /* Pods-PersonCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3579BBB6007D774B537B9D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C937E167FE0BABF0E3D0906 /* libPods-PersonCenter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84499F0F22052F4400F94290 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84499F1022052F4400F94290 /* refresh@2x.png */,
+				84499F1122052F4400F94290 /* refresh@3x.png */,
+				84499F1222052F4400F94290 /* user_cover.jpg */,
+				84499F1322052F4400F94290 /* user_default.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		84577AE92204329A00FE416F = {
+			isa = PBXGroup;
+			children = (
+				84577AF42204329A00FE416F /* PersonCenter */,
+				84577B102204329B00FE416F /* PersonCenterTests */,
+				84577B1B2204329B00FE416F /* PersonCenterUITests */,
+				84577AF32204329A00FE416F /* Products */,
+				08D374FD7EADD3D0789AB73E /* Pods */,
+				3579BBB6007D774B537B9D89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84577AF32204329A00FE416F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84577AF22204329A00FE416F /* PersonCenter.app */,
+				84577B0D2204329B00FE416F /* PersonCenterTests.xctest */,
+				84577B182204329B00FE416F /* PersonCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84577AF42204329A00FE416F /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				84577AF52204329A00FE416F /* AppDelegate.h */,
+				84577AF62204329A00FE416F /* AppDelegate.m */,
+				84577B8A22043B3900FE416F /* UIConfig.h */,
+				84577AF82204329A00FE416F /* FirstViewController.h */,
+				84577AF92204329A00FE416F /* FirstViewController.m */,
+				84577AFB2204329A00FE416F /* SecondViewController.h */,
+				84577AFC2204329A00FE416F /* SecondViewController.m */,
+				84577B7C2204369D00FE416F /* External */,
+				84577B622204368D00FE416F /* PersonCenter */,
+				84577AFE2204329A00FE416F /* Main.storyboard */,
+				84577B012204329A00FE416F /* Assets.xcassets */,
+				84577B032204329A00FE416F /* LaunchScreen.storyboard */,
+				84577B062204329A00FE416F /* Info.plist */,
+				84577B072204329A00FE416F /* main.m */,
+				84577B892204390700FE416F /* PersonCenter_prefix.pch */,
+				84499F0F22052F4400F94290 /* Image */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		84577B102204329B00FE416F /* PersonCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				84577B112204329B00FE416F /* PersonCenterTests.m */,
+				84577B132204329B00FE416F /* Info.plist */,
+			);
+			path = PersonCenterTests;
+			sourceTree = "<group>";
+		};
+		84577B1B2204329B00FE416F /* PersonCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84577B1C2204329B00FE416F /* PersonCenterUITests.m */,
+				84577B1E2204329B00FE416F /* Info.plist */,
+			);
+			path = PersonCenterUITests;
+			sourceTree = "<group>";
+		};
+		84577B622204368D00FE416F /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				84577B912204402500FE416F /* Model */,
+				84577B632204368D00FE416F /* Controller */,
+				84577B672204368D00FE416F /* Helper */,
+				84577B6C2204368D00FE416F /* View */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		84577B632204368D00FE416F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84577B642204368D00FE416F /* EmbedScrollViewControllerProtocol.h */,
+				84577B652204368D00FE416F /* PersonCenterController.h */,
+				84577B662204368D00FE416F /* PersonCenterController.m */,
+				84577B9922044B3C00FE416F /* TestTableViewController.h */,
+				84577B9A22044B3C00FE416F /* TestTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84577B672204368D00FE416F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84577B682204368D00FE416F /* UIImage+ImageWithColor.h */,
+				84577B692204368D00FE416F /* UIImage+ImageWithColor.m */,
+				84577B8B22043CA700FE416F /* UIImageHelper.h */,
+				84577B8C22043CA800FE416F /* UIImageHelper.m */,
+				84577B6A2204368D00FE416F /* UIView+XDWRefresh.h */,
+				84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84577B6C2204368D00FE416F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84577B6D2204368D00FE416F /* ContentViewCell.h */,
+				84577B6E2204368D00FE416F /* ContentViewCell.m */,
+				84577B6F2204368D00FE416F /* MenuView.h */,
+				84577B702204368D00FE416F /* MenuView.m */,
+				84577B712204368D00FE416F /* PublicHeaderView.h */,
+				84577B722204368D00FE416F /* PublicHeaderView.m */,
+				84577B862204376700FE416F /* QCSlideSwitchView.h */,
+				84577B852204376600FE416F /* QCSlideSwitchView.m */,
+				84577B8F22043D8700FE416F /* ProfileButton.h */,
+				84577B8E22043D8600FE416F /* ProfileButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84577B7C2204369D00FE416F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				84577B952204456400FE416F /* MyBarButtonItem */,
+				84577B81220436FF00FE416F /* HMSegmentedControl */,
+				84577B7D2204369D00FE416F /* LTNavigationBar */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		84577B7D2204369D00FE416F /* LTNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				84577B7E2204369D00FE416F /* UINavigationBar+Awesome.h */,
+				84577B7F2204369D00FE416F /* UINavigationBar+Awesome.m */,
+			);
+			path = LTNavigationBar;
+			sourceTree = "<group>";
+		};
+		84577B81220436FF00FE416F /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				84577B82220436FF00FE416F /* HMSegmentedControl.h */,
+				84577B83220436FF00FE416F /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		84577B912204402500FE416F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84577B922204402500FE416F /* UserModel.h */,
+				84577B932204402500FE416F /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84577B952204456400FE416F /* MyBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				84577B962204456400FE416F /* MyBarButtonItem.h */,
+				84577B972204456400FE416F /* MyBarButtonItem.m */,
+			);
+			path = MyBarButtonItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84577AF12204329A00FE416F /* PersonCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84577B212204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenter" */;
+			buildPhases = (
+				41FBD46D57901E5EF5A925B5 /* [CP] Check Pods Manifest.lock */,
+				84577AEE2204329A00FE416F /* Sources */,
+				84577AEF2204329A00FE416F /* Frameworks */,
+				84577AF02204329A00FE416F /* Resources */,
+				4E8C22CF762399B29A82B617 /* [CP] Embed Pods Frameworks */,
+				5AADEC4603C50F8E752EF6CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonCenter;
+			productName = PersonCenter;
+			productReference = 84577AF22204329A00FE416F /* PersonCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84577B0C2204329B00FE416F /* PersonCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84577B242204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenterTests" */;
+			buildPhases = (
+				84577B092204329B00FE416F /* Sources */,
+				84577B0A2204329B00FE416F /* Frameworks */,
+				84577B0B2204329B00FE416F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84577B0F2204329B00FE416F /* PBXTargetDependency */,
+			);
+			name = PersonCenterTests;
+			productName = PersonCenterTests;
+			productReference = 84577B0D2204329B00FE416F /* PersonCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84577B172204329B00FE416F /* PersonCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84577B272204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenterUITests" */;
+			buildPhases = (
+				84577B142204329B00FE416F /* Sources */,
+				84577B152204329B00FE416F /* Frameworks */,
+				84577B162204329B00FE416F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84577B1A2204329B00FE416F /* PBXTargetDependency */,
+			);
+			name = PersonCenterUITests;
+			productName = PersonCenterUITests;
+			productReference = 84577B182204329B00FE416F /* PersonCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84577AEA2204329A00FE416F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Zhuoyu;
+				TargetAttributes = {
+					84577AF12204329A00FE416F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					84577B0C2204329B00FE416F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84577AF12204329A00FE416F;
+					};
+					84577B172204329B00FE416F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84577AF12204329A00FE416F;
+					};
+				};
+			};
+			buildConfigurationList = 84577AED2204329A00FE416F /* Build configuration list for PBXProject "PersonCenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84577AE92204329A00FE416F;
+			productRefGroup = 84577AF32204329A00FE416F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84577AF12204329A00FE416F /* PersonCenter */,
+				84577B0C2204329B00FE416F /* PersonCenterTests */,
+				84577B172204329B00FE416F /* PersonCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84577AF02204329A00FE416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84577B052204329A00FE416F /* LaunchScreen.storyboard in Resources */,
+				84577B022204329A00FE416F /* Assets.xcassets in Resources */,
+				84499F1622052F4400F94290 /* user_cover.jpg in Resources */,
+				84499F1522052F4400F94290 /* refresh@3x.png in Resources */,
+				84499F1422052F4400F94290 /* refresh@2x.png in Resources */,
+				84499F1722052F4400F94290 /* user_default.png in Resources */,
+				84577B002204329A00FE416F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B0B2204329B00FE416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B162204329B00FE416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41FBD46D57901E5EF5A925B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8C22CF762399B29A82B617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonCenter/Pods-PersonCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AADEC4603C50F8E752EF6CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PersonCenter/Pods-PersonCenter-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonCenter/Pods-PersonCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84577AEE2204329A00FE416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84577AFD2204329A00FE416F /* SecondViewController.m in Sources */,
+				84577B762204368D00FE416F /* UIImage+ImageWithColor.m in Sources */,
+				84577B792204368D00FE416F /* MenuView.m in Sources */,
+				84577B8D22043CA800FE416F /* UIImageHelper.m in Sources */,
+				84577B782204368D00FE416F /* ContentViewCell.m in Sources */,
+				84577AF72204329A00FE416F /* AppDelegate.m in Sources */,
+				84577B942204402500FE416F /* UserModel.m in Sources */,
+				84577B84220436FF00FE416F /* HMSegmentedControl.m in Sources */,
+				84577B772204368D00FE416F /* UIView+XDWRefresh.m in Sources */,
+				84577B082204329A00FE416F /* main.m in Sources */,
+				84577B802204369D00FE416F /* UINavigationBar+Awesome.m in Sources */,
+				84577B982204456400FE416F /* MyBarButtonItem.m in Sources */,
+				84577B872204376700FE416F /* QCSlideSwitchView.m in Sources */,
+				84577B752204368D00FE416F /* PersonCenterController.m in Sources */,
+				84577B9022043D8700FE416F /* ProfileButton.m in Sources */,
+				84577B9B22044B3C00FE416F /* TestTableViewController.m in Sources */,
+				84577B7A2204368D00FE416F /* PublicHeaderView.m in Sources */,
+				84577AFA2204329A00FE416F /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B092204329B00FE416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84577B122204329B00FE416F /* PersonCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84577B142204329B00FE416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84577B1D2204329B00FE416F /* PersonCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84577B0F2204329B00FE416F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84577AF12204329A00FE416F /* PersonCenter */;
+			targetProxy = 84577B0E2204329B00FE416F /* PBXContainerItemProxy */;
+		};
+		84577B1A2204329B00FE416F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84577AF12204329A00FE416F /* PersonCenter */;
+			targetProxy = 84577B192204329B00FE416F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84577AFE2204329A00FE416F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84577AFF2204329A00FE416F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84577B032204329A00FE416F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84577B042204329A00FE416F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84577B1F2204329B00FE416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84577B202204329B00FE416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84577B222204329B00FE416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15738F2AC1BAF624B6513705 /* Pods-PersonCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PersonCenter/PersonCenter_prefix.pch";
+				INFOPLIST_FILE = PersonCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84577B232204329B00FE416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC06994C0491C22ADED751E /* Pods-PersonCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PersonCenter/PersonCenter_prefix.pch";
+				INFOPLIST_FILE = PersonCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84577B252204329B00FE416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				INFOPLIST_FILE = PersonCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonCenter.app/PersonCenter";
+			};
+			name = Debug;
+		};
+		84577B262204329B00FE416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				INFOPLIST_FILE = PersonCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonCenter.app/PersonCenter";
+			};
+			name = Release;
+		};
+		84577B282204329B00FE416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				INFOPLIST_FILE = PersonCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonCenter;
+			};
+			name = Debug;
+		};
+		84577B292204329B00FE416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				INFOPLIST_FILE = PersonCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyu.PersonCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84577AED2204329A00FE416F /* Build configuration list for PBXProject "PersonCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84577B1F2204329B00FE416F /* Debug */,
+				84577B202204329B00FE416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84577B212204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84577B222204329B00FE416F /* Debug */,
+				84577B232204329B00FE416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84577B242204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84577B252204329B00FE416F /* Debug */,
+				84577B262204329B00FE416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84577B272204329B00FE416F /* Build configuration list for PBXNativeTarget "PersonCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84577B282204329B00FE416F /* Debug */,
+				84577B292204329B00FE416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84577AEA2204329A00FE416F /* Project object */;
+}
