@@ -2,8 +2,8 @@
 //  PersonCenterTests.m
 //  PersonCenterTests
 //
-//  Created by admin on 1/2/19.
-//  Copyright © 2019年 Zhuoyu. All rights reserved.
+//  Created by zhouyu on 1/2/19.
+//  Copyright © 2019年 ColorFish. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

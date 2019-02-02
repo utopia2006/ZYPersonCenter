@@ -1,9 +1,9 @@
 //
-//  photo_prefix.pch
-//  photo
+//  PersonCenter_prefix.pch
+//  PersonCenter
 //
-//  Created by admin on 14-10-30.
-//  Copyright (c) 2014年 poco. All rights reserved.
+//  Created by zhuoyu on 14-10-30.
+//  Copyright (c) 2019年 ColorFish. All rights reserved.
 //
 
 #ifndef photo_photo_prefix_pch

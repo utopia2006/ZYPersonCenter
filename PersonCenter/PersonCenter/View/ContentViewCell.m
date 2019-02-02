@@ -1,9 +1,9 @@
 //
 //  ContentViewCell.m
-//  PersonalHomePageDemo
+//  PersonCenter
 //
-//  Created by Kegem Huang on 2017/3/15.
-//  Copyright © 2017年 huangkejin. All rights reserved.
+//  Created by zhuoyu on 2017/3/15.
+//  Copyright © 2017年 ColorFish All rights reserved.
 //
 
 #import "ContentViewCell.h"

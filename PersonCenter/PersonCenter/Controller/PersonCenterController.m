@@ -1,9 +1,9 @@
 //
 //  PersonCenterController.m
-//  photo
+//  PersonCenter
 //
-//  Created by mac--yaoyinglong on 2017/11/2.
-//  Copyright © 2017年 poco. All rights reserved.
+//  Created by zhuoyu on 2017/11/2.
+//  Copyright © 2019年 ColorFish All rights reserved.
 //
 
 #import "PersonCenterController.h"

@@ -1,9 +1,9 @@
 //
 //  EmbedScrollViewControllerProtocol.h
-//  PersonalHomePageDemo
+//  PersonCenter
 //
-//  Created by Patrick on 2017/3/15.
-//  Copyright © 2017年 POCO.CN. All rights reserved.
+//  Created by zhouyu on 2017/3/15.
+//  Copyright © 2019年 ColorFish All rights reserved.
 //
 
 /**

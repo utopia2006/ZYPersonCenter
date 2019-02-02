@@ -2,12 +2,11 @@
 //  UserModel.m
 //  photo
 //
-//  Created by admin on 17/3/27.
-//  Copyright © 2017年 poco. All rights reserved.
+//  Created by zhuoyu on 17/3/27.
+//  Copyright © 2019年 ColorFish All rights reserved.
 //
 
 #import "UserModel.h"
-//#import "GTMNSString+HTML.h"
 
 @implementation UserModel
 
@@ -29,7 +28,6 @@
     user.avatars = self.avatars;
     user.locationName = self.locationName;
     user.locationId = self.locationId;
-    user.isBestPocoer = self.isBestPocoer;
     user.relation = self.relation;
     user.actCnt = self.actCnt;
     user.followCnt = self.followCnt;

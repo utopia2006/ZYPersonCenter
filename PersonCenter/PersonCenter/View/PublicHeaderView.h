@@ -1,9 +1,9 @@
 //
 //  PublicHeaderView.h
-//  photo
+//  PersonCenter
 //
-//  Created by mac--yaoyinglong on 2017/10/11.
-//  Copyright © 2017年 poco. All rights reserved.
+//  Created by zhouyu on 2017/10/11.
+//  Copyright © 2017年 ColorFish All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

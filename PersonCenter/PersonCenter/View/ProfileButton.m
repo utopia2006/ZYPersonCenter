@@ -1,9 +1,9 @@
 //
 //  ProfileButton.m
-//  photo
+//  PersonCenter
 //
-//  Created by admin on 14-12-3.
-//  Copyright (c) 2014年 poco. All rights reserved.
+//  Created by zhuoyu on 14-12-3.
+//  Copyright (c) 2014年 ColorFish All rights reserved.
 //
 
 #import "ProfileButton.h"

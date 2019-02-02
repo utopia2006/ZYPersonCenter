@@ -1,9 +1,9 @@
 //
 //  UIConfig.h
-//  photo
+//  PersonCenter
 //
-//  Created by admin on 14-11-7.
-//  Copyright (c) 2014年 poco. All rights reserved.
+//  Created by zhuoyu on 14-11-7.
+//  Copyright (c) 2019年 ColorFish All rights reserved.
 //
 
 #ifndef photo_UIConfig_h

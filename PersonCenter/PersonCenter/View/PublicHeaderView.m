@@ -1,9 +1,9 @@
 //
 //  PublicHeaderView.m
-//  photo
+//  PersonCenter
 //
-//  Created by mac--yaoyinglong on 2017/9/27.
-//  Copyright © 2017年 poco. All rights reserved.
+//  Created by zhuoyu on 2017/9/27.
+//  Copyright © 2017年 ColorFish All rights reserved.
 //
 
 #import "PublicHeaderView.h"

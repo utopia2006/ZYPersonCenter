@@ -23,7 +23,6 @@
 		84577B1D2204329B00FE416F /* PersonCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B1C2204329B00FE416F /* PersonCenterUITests.m */; };
 		84577B752204368D00FE416F /* PersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B662204368D00FE416F /* PersonCenterController.m */; };
 		84577B762204368D00FE416F /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B692204368D00FE416F /* UIImage+ImageWithColor.m */; };
-		84577B772204368D00FE416F /* UIView+XDWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */; };
 		84577B782204368D00FE416F /* ContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B6E2204368D00FE416F /* ContentViewCell.m */; };
 		84577B792204368D00FE416F /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B702204368D00FE416F /* MenuView.m */; };
 		84577B7A2204368D00FE416F /* PublicHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B722204368D00FE416F /* PublicHeaderView.m */; };
@@ -35,6 +34,7 @@
 		84577B942204402500FE416F /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B932204402500FE416F /* UserModel.m */; };
 		84577B982204456400FE416F /* MyBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B972204456400FE416F /* MyBarButtonItem.m */; };
 		84577B9B22044B3C00FE416F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84577B9A22044B3C00FE416F /* TestTableViewController.m */; };
+		84923BFE220535EB00789B3D /* UIView+XDWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84923BFD220535EA00789B3D /* UIView+XDWRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,6 @@
 		84577B662204368D00FE416F /* PersonCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCenterController.m; sourceTree = "<group>"; };
 		84577B682204368D00FE416F /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		84577B692204368D00FE416F /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
-		84577B6A2204368D00FE416F /* UIView+XDWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDWRefresh.h"; sourceTree = "<group>"; };
-		84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDWRefresh.m"; sourceTree = "<group>"; };
 		84577B6D2204368D00FE416F /* ContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCell.h; sourceTree = "<group>"; };
 		84577B6E2204368D00FE416F /* ContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCell.m; sourceTree = "<group>"; };
 		84577B6F2204368D00FE416F /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
@@ -111,6 +109,8 @@
 		84577B972204456400FE416F /* MyBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBarButtonItem.m; sourceTree = "<group>"; };
 		84577B9922044B3C00FE416F /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		84577B9A22044B3C00FE416F /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		84923BFC220535EA00789B3D /* UIView+XDWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDWRefresh.h"; sourceTree = "<group>"; };
+		84923BFD220535EA00789B3D /* UIView+XDWRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDWRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,8 +233,8 @@
 		84577B622204368D00FE416F /* PersonCenter */ = {
 			isa = PBXGroup;
 			children = (
-				84577B912204402500FE416F /* Model */,
 				84577B632204368D00FE416F /* Controller */,
+				84577B912204402500FE416F /* Model */,
 				84577B672204368D00FE416F /* Helper */,
 				84577B6C2204368D00FE416F /* View */,
 			);
@@ -260,8 +260,6 @@
 				84577B692204368D00FE416F /* UIImage+ImageWithColor.m */,
 				84577B8B22043CA700FE416F /* UIImageHelper.h */,
 				84577B8C22043CA800FE416F /* UIImageHelper.m */,
-				84577B6A2204368D00FE416F /* UIView+XDWRefresh.h */,
-				84577B6B2204368D00FE416F /* UIView+XDWRefresh.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -286,6 +284,7 @@
 		84577B7C2204369D00FE416F /* External */ = {
 			isa = PBXGroup;
 			children = (
+				84923BFB220535EA00789B3D /* XDWRefresh */,
 				84577B952204456400FE416F /* MyBarButtonItem */,
 				84577B81220436FF00FE416F /* HMSegmentedControl */,
 				84577B7D2204369D00FE416F /* LTNavigationBar */,
@@ -327,6 +326,15 @@
 				84577B972204456400FE416F /* MyBarButtonItem.m */,
 			);
 			path = MyBarButtonItem;
+			sourceTree = "<group>";
+		};
+		84923BFB220535EA00789B3D /* XDWRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				84923BFC220535EA00789B3D /* UIView+XDWRefresh.h */,
+				84923BFD220535EA00789B3D /* UIView+XDWRefresh.m */,
+			);
+			path = XDWRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,7 +539,6 @@
 				84577AF72204329A00FE416F /* AppDelegate.m in Sources */,
 				84577B942204402500FE416F /* UserModel.m in Sources */,
 				84577B84220436FF00FE416F /* HMSegmentedControl.m in Sources */,
-				84577B772204368D00FE416F /* UIView+XDWRefresh.m in Sources */,
 				84577B082204329A00FE416F /* main.m in Sources */,
 				84577B802204369D00FE416F /* UINavigationBar+Awesome.m in Sources */,
 				84577B982204456400FE416F /* MyBarButtonItem.m in Sources */,
@@ -540,6 +547,7 @@
 				84577B9022043D8700FE416F /* ProfileButton.m in Sources */,
 				84577B9B22044B3C00FE416F /* TestTableViewController.m in Sources */,
 				84577B7A2204368D00FE416F /* PublicHeaderView.m in Sources */,
+				84923BFE220535EB00789B3D /* UIView+XDWRefresh.m in Sources */,
 				84577AFA2204329A00FE416F /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
