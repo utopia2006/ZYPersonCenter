@@ -119,11 +119,11 @@
             </objects>
             <point key="canvasLocation" x="788" y="394"/>
         </scene>
-        <!--Item-->
+        <!--Person-->
         <scene sceneID="P8d-go-Mo7">
             <objects>
-                <navigationController id="6lQ-08-Ym3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rfE-68-Fy9"/>
+                <navigationController id="6lQ-08-Ym3" userLabel="Person" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="rfE-68-Fy9" userLabel="person"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fse-0p-fSI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

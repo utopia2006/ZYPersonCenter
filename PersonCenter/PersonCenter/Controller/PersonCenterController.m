@@ -93,8 +93,6 @@ static CGFloat coverImgheight;
     self.canScroll = YES;
     //self.title = @"";
     self.edgesForExtendedLayout = UIRectEdgeTop | UIRectEdgeLeft | UIRectEdgeRight;
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    self.tableView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
@@ -258,6 +256,7 @@ static CGFloat coverImgheight;
         _tableView = [[PersonCenterTableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
         _tableView.backgroundColor = [UIColor whiteColor];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        self.tableView.showsVerticalScrollIndicator = NO;
         _tableView.delegate = self;
         _tableView.dataSource = self;
         if (@available(iOS 11.0, *)) {
@@ -284,6 +283,7 @@ static CGFloat coverImgheight;
         UIImage *image = [UIImage imageNamed:@"user_cover.jpg"];
         _bannerImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -coverImgheight, kScreenWidth,coverImgheight)];
         _bannerImgView.contentMode = UIViewContentModeScaleAspectFill;
+        _bannerImgView.userInteractionEnabled = YES;
         _bannerImgView.image = image;
     }
     return _bannerImgView;
